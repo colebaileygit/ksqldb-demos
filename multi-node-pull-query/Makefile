@@ -13,3 +13,6 @@ query-1:
 
 query-2:
 	docker-compose exec ksql-2 ksql -e "SELECT * FROM MIGRATION_STATUS WHERE status = 'success';"
+
+query-3:
+	docker-compose exec ksql-3 ksql -e "SELECT * FROM MIGRATION_STATUS WHERE status = 'success';"
